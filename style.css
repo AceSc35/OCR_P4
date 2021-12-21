@@ -27,6 +27,33 @@ a:hover {
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.text-add {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-addbis {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quote {
+  color: #fdb927;
+  font-size: 12px;
+}
+
+.quote-global {
+  border: 2px solid #fdb927;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 19px 4px #fdb927;
+}
+
+.col-xs-12 {
+  width: 66.66666667%;
+  margin-left: 16.66666667%;
+}
+
 .bloc {
   width: 100%;
   clear: both;
@@ -45,7 +72,7 @@ a:hover {
 }
 
 .bloc-lg {
-  padding: 100px 50px;
+  padding: 75px 50px;
 }
 
 .bloc-md {
@@ -254,7 +281,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-  color: rgba(0, 0, 0, 0.6);
+  color: #fdb927;
 }
 
 .d-bloc .panel .btn-wire,
@@ -348,7 +375,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #fdb927;
   width: 26px;
 }
 
