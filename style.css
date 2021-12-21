@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
   background: url("img/texture-paper.webp");
   background-size: 280px 280px;
+  background-color: rgb(21, 48, 101, 0.5);
 }
 
 .b-parallax {
@@ -816,11 +817,11 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
