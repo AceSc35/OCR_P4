@@ -54,10 +54,6 @@ a:hover {
   margin-left: 16.66666667%;
 }
 
-.title-index {
-  color: #fafafa !important;
-}
-
 .bloc {
   width: 100%;
   clear: both;
@@ -765,7 +761,7 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: #fff !important;
 }
 
 h4 {
