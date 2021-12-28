@@ -46,8 +46,7 @@
 
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		
+	<div class="container bloc-lg-contact">
 	
 <!-- bloc-6 END -->
 
@@ -58,29 +57,29 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" required />
+						<input id="name" name="name" class="form-control" aria-label="nom d'utilisateur" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" name="email" class="form-control" type="email" aria-label="adresse mail" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" id="input_504" aria-label="connaissance du site" type="text" required  />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" aria-label="message-projet" type="text" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="valider">
 						Envoyer
 					</button>
 				</form>
