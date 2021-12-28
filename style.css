@@ -82,6 +82,10 @@ label {
   height: 100px;
 }
 
+.title-contact {
+  mix-blend-mode: difference;
+}
+
 .bloc {
   width: 100%;
   clear: both;
