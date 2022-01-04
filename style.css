@@ -86,6 +86,12 @@ label {
   mix-blend-mode: difference;
 }
 
+.debrief-area {
+  width: 94%;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
 .bloc {
   width: 100%;
   clear: both;
@@ -573,6 +579,7 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  width: 160px;
 }
 
 .scrollToTop {
@@ -1072,7 +1079,7 @@ h4 {
     margin-top: 30px;
   }
   form {
-    padding: 5px;
+    padding: 11px;
   }
   .close-lightbox {
     display: inline-block;
@@ -1134,5 +1141,13 @@ h4 {
   .img-responsive {
     width: 66%;
     height: 200px;
+  }
+
+  .bloc .container {
+    padding-left: 4px;
+  }
+
+  label {
+    font-size: 18px;
   }
 }
