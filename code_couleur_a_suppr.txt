@@ -1,5 +1,0 @@
-CSS code couleur
-
-Jaune : #FDB927
-
-Bleu : #153065
