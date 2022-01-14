@@ -24,9 +24,10 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  background: #ffffff url('img/pageload-spinner.gif') no-repeat center center;
 }
 
+/* Changement */
 .text-add {
   font-size: 20px;
   font-weight: bold;
@@ -87,10 +88,24 @@ label {
 }
 
 .debrief-area {
-  width: 94%;
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
+
+a:-webkit-any-link {
+  text-decoration: unset;
+}
+
+.contact-under-send {
+  width: 51%;
+  margin-top: 19px;
+}
+
+.bloc-lg-bis {
+  padding: 41px 50px;
+}
+
+/*Fin du changement */
 
 .bloc {
   width: 100%;
@@ -111,6 +126,10 @@ label {
 
 .bloc-lg {
   padding: 75px 50px;
+}
+
+.bloc-lg-bis {
+  padding: 41px 50px;
 }
 
 .bloc-md {
@@ -146,7 +165,7 @@ label {
 }
 
 .bloc-bg-texture::before {
-  content: "";
+  content: '';
   background-size: 2px 2px;
   position: absolute;
   top: 0;
@@ -156,7 +175,7 @@ label {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.webp");
+  background: url('img/texture-paper.webp');
   background-size: 280px 280px;
   background-color: rgb(21, 48, 101, 0.5);
 }
@@ -343,8 +362,8 @@ label {
   margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters > [class^='col-'],
+.row.row-no-gutters > [class*=' col-'] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -373,7 +392,7 @@ label {
   height: 40px;
 }
 
-.navbar-brand img[src$="svg"] {
+.navbar-brand img[src$='svg'] {
   min-width: 100px;
 }
 
@@ -548,6 +567,7 @@ button {
 
 .icon-md {
   font-size: 30px !important;
+  text-decoration: unset;
 }
 
 .icon-lg {
@@ -609,8 +629,8 @@ a[data-lightbox] {
 }
 
 a[data-lightbox]:hover::before {
-  content: "+";
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  content: '+';
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial;
   font-size: 32px;
   width: 50px;
@@ -722,7 +742,7 @@ p,
 label,
 .btn,
 a {
-  font-family: "helvetica";
+  font-family: 'helvetica';
   font-weight: 400;
   color: #fdb927 !important;
 }
@@ -764,7 +784,7 @@ p {
 
 .h1 {
   font-size: 20px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 .cta-hero {
@@ -774,6 +794,7 @@ p {
   padding: 12px 28px 12px 28px;
   font-size: 16px;
   font-weight: 700;
+  width: auto;
 }
 
 .social {
@@ -883,19 +904,19 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.webp");
+  background-image: url('img/dots-bg.webp');
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.webp");
+  background-image: url('img/lines-h2-bg.webp');
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.webp");
+  background-image: url('img/la-chouette-agence-banniere.webp');
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.webp");
+  background-image: url('img/image-de-presentation.webp');
 }
 
 @media (max-width: 1024px) {
@@ -1104,6 +1125,25 @@ h4 {
     justify-content: center;
     align-items: center;
   }
+
+  /* Changement */
+
+  .img-responsive {
+    width: 66%;
+    height: 200px;
+  }
+
+  .bloc .container {
+    padding-left: 4px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  .bloc-mob-center-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1121,33 +1161,8 @@ h4 {
     justify-content: center;
     align-items: center;
   }
-}
 
-@media (max-width: 767px) {
-  .bloc-mob-center-text {
-    text-align: center;
-  }
-
-  .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .img-responsive {
-    width: 66%;
-    height: 200px;
-  }
-
-  .bloc .container {
-    padding-left: 4px;
-  }
-
-  label {
-    font-size: 18px;
+  .debrief-area {
+    width: 98%;
   }
 }
